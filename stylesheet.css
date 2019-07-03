@@ -1,0 +1,141 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+/* ここからCSSを記述してください */
+body {
+    font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+/* header */
+header {
+    height: 90px;
+    background-color: #26d0c9;
+    color: #fff;
+}
+
+.logo {
+    font-size: 36px;
+    padding: 20px 40px;
+    float: left;
+}
+
+.list {
+    float: left;
+}
+
+    .list p {
+        padding: 33px 20px;
+        float: left;
+    }
+
+/* main */
+.main {
+    padding: 100px 80px 0px 80px;
+}
+
+    .main h1 {
+        font-size: 140px;
+    }
+
+    .main span {
+        color: red;
+    }
+
+    .main h2 {
+        font-size: 60px;
+    }
+
+/* content*/
+.content {
+    height: 500px;
+    padding-left: 80px;
+    margin-top: 100px;
+}
+
+.content-titel {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.contet-item {
+    float: left;
+    margin-right: 40px;
+}
+
+    .contet-item p {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+/*inputform*/
+.inputform {
+    width: 400px;
+    padding: 100px 80px 100px 80px;
+}
+
+    .inputform h1 {
+        font-size: 28px;
+        margin-bottom: 50px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #dee7ec;
+    }
+
+    .inputform p {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #dee7ec;
+    }
+
+    .inputform input {
+        width: 400px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .inputform textarea {
+        width: 400px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+.contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+}
+
+footer {
+    background-color: #2f5167;
+    height: 120px;
+    padding: 40px;
+}
+
+.logo2 {
+    color: white;
+    font-size: 32px;
+    float: left;
+}
+
+.list2 {
+    color: white;
+    float: right;
+}
+
+    .list2 p {
+        padding-bottom: 20px;
+    }
+
+
+
+}
